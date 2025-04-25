@@ -47,8 +47,8 @@ class OnionClient:
 class EnhancedCallHandler:
     # Twilio credentials - in production, these should be stored securely
     TWILIO_ACCOUNT_SID = "YOUR_ACCOUNT_SID"  # Replace with your actual SID in production
-    TWILIO_AUTH_TOKEN = "3fa107c7eb237349b34ee9f216e4738d"  # From your input
-    TWILIO_PHONE_NUMBER = "+19404687675"  # From your input
+    TWILIO_AUTH_TOKEN = ""  # From your input
+    TWILIO_PHONE_NUMBER = ""  # From your input
     
     @staticmethod
     def initiate_call(number, method="System Dialer"):
